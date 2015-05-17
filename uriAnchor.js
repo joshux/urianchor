@@ -502,6 +502,11 @@ configModule = function ( arg_map  ) {
 };
 // End public method /configModule/
 exports.setAnchor = setAnchor;
+exports.configModule = configModule;
+exports.makeAnchorMap = makeAnchorMap;
+//exports.makeAnchorString = makeAnchorString;
+//exports.getVarType = getVarType;
+
 // return public methods
 /*return {
   configModule     : configModule,
